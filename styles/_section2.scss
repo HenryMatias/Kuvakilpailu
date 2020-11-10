@@ -1,0 +1,278 @@
+.d-none {
+    display: none;
+}
+
+#section2 {
+    height: 1340px;
+    @media (max-width: 1320px) {
+        height: 100%;
+        padding-bottom: 30px;
+    }
+    h2 {
+        font-family: $vb;
+        padding-top: 88px;
+        margin-bottom: 0;
+        margin-top: 0;
+        font-size: 42px;
+        color: $pink;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 50.4px;
+        outline: 0;
+        @media (max-width: 480px) {
+            font-size: 35px;
+            line-height: 41.4px;
+            text-align: left;
+            padding-bottom: 20px;
+            margin: 0 20px;
+        }
+    }
+    p {
+        text-align: left;
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 14px;
+        color: #4A4A4A;
+        letter-spacing: 1.75px;
+        margin-top: 0px;
+    }
+    #section2-description {
+        margin-bottom: 56px;
+        font-family: $vr!important;
+        font-size: 18px!important;
+        color: #000000!important;
+        letter-spacing: 0!important;
+        text-align: center!important;
+        line-height: 50.4px;
+        margin-top: 0!important;
+        @media (max-width: 480px) {
+            text-align: left!important;
+            line-height: 23.4px;
+            margin: 0 20px;
+            padding-bottom: 20px;
+        }
+    }
+    .your-class {
+        max-width: 1178px;
+        margin: 0 200px 0 222px;
+        @media (max-width: 1700px) {
+            margin: 0 75px;
+            max-width: 100%;
+        }
+        @media (max-width: 930px) {
+            margin: 0 60px;
+        }
+        @media (max-width: 630px) {
+            margin: 0 40px;
+        }
+        @media (max-width: 480px) {
+            margin: 0 20px;
+        }
+        div {
+            outline: 0;
+        }
+        .post-element {
+            outline: 0;
+            margin-bottom: 38px;
+            @media (max-width: 630px) {
+                margin-bottom: 0px;
+            }
+            &:focus {
+                outline: 0;
+            }
+            .contest-photo {
+                height: 280px;
+                width: 280px;
+                object-fit: cover;
+                @media (max-width: 1700px) {
+                    height: 250px;
+                    width: 250px;
+                }
+            
+                @media (max-width: 1320px) {
+                    height: 230px;
+                    width: 230px;
+                }
+                @media (max-width: 930px) {
+                    height: 150px;
+                    width: 150px;
+                }
+                @media (max-width: 630px) {
+                    width: 180px;
+                    height: auto;
+                }
+                @media (max-width: 480px) {
+                    width: 98%;
+                }
+            }
+            .voting {
+                width: 280px;
+                height: 48px;
+                background: #D8D8D8;
+                border-radius: 24px;
+                margin-bottom: 20px;
+                margin-top: 15px;
+                position: relative;
+                transition: 0.3s;
+                @media (max-width: 1700px) {
+                    width: 250px;
+                }
+                @media (max-width: 1320px) {
+                    width: 230px;
+                }
+                @media (max-width: 930px) {
+                    width: 150px;
+                }
+                @media (max-width: 630px) {
+                    width: 98%;
+                }
+                &:hover {
+                    background: #25D366;
+                    transition: 0.3s;
+                    & > p {
+                        color: white!important;
+                        transition: 0.3s;
+                    }
+                }
+                .like__btn {
+                    width: 117px;
+                    height: 48px;
+                    border: 3px solid $pink;
+                    border-radius: 24px;
+                    font-family: $vb;
+                    font-size: 16px;
+                    color: white;
+                    letter-spacing: 2px;
+                    padding-left: 40px;
+                    cursor: pointer;
+                    background: $pink;
+                    outline: none;
+                    transition: all 0.4s;
+                    @media (max-width: 930px) {
+                        width: 85px;
+                    }
+                    .like-text {
+                        @media (max-width: 930px) {
+                            display: none;
+                        }
+                    }
+                    .far {
+                        color: white;
+                        font-size: 24px;
+                        font-weight: 700;
+                        position: absolute;
+                        top: 25%;
+                        right: 83%;
+                        transition: all 0.4s ease-in-out;
+                        @media (max-width: 930px) {
+                            right: 76%;
+                        }
+                    }
+                    .heartlike {
+                        font-weight: 400!important;
+                        color: $pink!important;
+                        right: 48%!important;
+                        transition: all 0.4s ease-in-out;
+                        @media (max-width: 1700px) {
+                            right: 43%!important;
+                        }
+                        @media (max-width: 930px) {
+                            right: 59%!important;
+                        }
+                    }
+                }
+                .buttonlike {
+                    background: white!important;
+                    color: $pink!important;
+                    width: 166px!important;
+                    height: 48px!important;
+                    padding-right: 37px!important;
+                    padding-left: 0px!important;
+                    transition: all 0.4s;
+                    @media (max-width: 930px) {
+                        width: 90px!important;
+                    }
+                }
+                .social_share {
+                    position: absolute;
+                    top: -28%;
+                    right: 13%;
+                }
+                p {
+                    float: right;
+                    padding-right: 43px;
+                    font-size: 16px!important;
+                    color: #555555!important;
+                    letter-spacing: 2px!important;
+                    font-family: $vb!important;
+                    margin-top: 12px!important;
+                    @media (max-width: 1700px) {
+                        padding-right: 30px;
+                    }
+                    @media (max-width: 1320px) {
+                        padding-right: 18px;
+                    }
+                    @media (max-width: 630px) {
+                        padding-right: 14%;
+                    }
+                    @media (max-width: 375px) {
+                        padding-right: 10%;
+                        font-size: 14px;
+                    }
+                }
+            }
+            h4 {
+                font-family: Roboto;
+                font-weight: 700;
+                font-size: 20px;
+                color: #4A4A4A;
+                letter-spacing: 0;
+                margin-bottom: 6px;
+                margin-top: 0px;
+                text-transform: lowercase;
+                &::first-letter {
+                    text-transform: uppercase;
+                }
+            }
+            h5 {
+                font-family: Roboto;
+                font-weight: 400;
+                font-size: 14px;
+                color: #4A4A4A;
+                letter-spacing: 1.75px;
+                margin-top: 0px;
+                text-transform: uppercase;
+                @media (max-width: 930px) {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+    li {
+        list-style-type: none;
+        button {
+            border: none;
+            outline: 0;
+            background: white;
+            font-family: $vb;
+            font-size: 24px;
+            color: #D8D8D8;
+            letter-spacing: 0;
+            margin: 0 5px 0 5px;
+            cursor: pointer;
+            @media (max-width: 480px) {
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+li.slick-active button {
+    color: #E5007C!important;
+}

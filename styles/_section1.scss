@@ -1,0 +1,95 @@
+#section1 {
+    margin-top: 103px!important;
+	height: 847px;
+    position: relative;
+    @media (max-width: 930px) {
+        height: 100%;
+        padding: 100px 0px;
+	}
+    .intro {
+        width: 700px;
+        margin-left: 100px;
+        padding-top: 150px;
+        @media (max-width: 1700px) {
+            width: 500px;
+        }
+        @media (max-width: 930px) {
+            width: auto;
+            margin: 0 60px;
+            padding-top: 0px;
+        }
+        @media (max-width: 630px) {
+            margin: 0 40px;
+        }
+        @media (max-width: 480px) {
+            margin: 0 20px;
+        }
+        h1 {
+            font-family: $vb;
+            font-size: 72px;
+            color: $pink;
+            letter-spacing: 0;
+            line-height: 86.4px;
+            padding-bottom: 73px;
+            margin: 0;
+            @media (max-width: 930px) {
+                font-size: 60px;
+                line-height: 70.4px;
+            }
+            @media (max-width: 630px) {
+                font-size: 45px;
+                line-height: 55.4px;
+            }
+            @media (max-width: 480px) {
+                font-size: 35px;
+                line-height: 41.4px;
+                padding-bottom: 20px;
+            }
+        }
+        p {
+            font-size: 24px;
+            color: #000000;
+            letter-spacing: 0;
+            line-height: 40.08px;
+            padding-bottom: 35px;
+            font-family: $vl;
+            margin-top: 0px;
+            @media (max-width: 480px) {
+                font-size: 18px;
+                line-height: 27.08px;
+            }
+        }
+        a {
+            color: $pink;
+            font-size: 16px;
+            letter-spacing: .05rem;
+            border: solid;
+            border-width: 3px;
+            border-radius: 40px;
+            padding: 10px 18px;
+            transition: .3s;
+            font-family: $vb;
+            cursor: pointer;
+            text-decoration: none;
+            &:hover {
+                color: white;
+                background-color: $pink;
+                border-color: $pink;
+            }
+        }
+    }
+    img {
+        position: absolute;
+        top: -5%;
+        right: -3%;
+        width: 800px;
+        z-index: 2;
+        @media (max-width: 1700px) {
+            width: 560px;
+        }
+        @media (max-width: 1320px) {
+            display: none;
+        }
+    }
+    
+}

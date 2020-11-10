@@ -1,0 +1,93 @@
+#section4 {
+	height: 910px;
+    @media (max-width: 1700px) {
+		display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    @media (max-width: 1320px) {
+        padding-top: 80px;
+    }
+    @media (max-width: 930px) {
+        height: 100%;
+        padding-bottom: 80px;
+    }
+    .content {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 613px 481px;
+        @media (max-width: 1700px) {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        @media (max-width: 1320px) {
+            align-items: normal;
+        }
+        @media (max-width: 930px) {
+            display: flex;
+            flex-direction: column;
+            margin: 0 60px;
+        }
+        @media (max-width: 630px) {
+            margin: 0 40px;
+        }
+        @media (max-width: 480px) {
+            margin: 0 20px;
+        }
+        #competition {
+            padding-left: 222px;
+            @media (max-width: 1700px) {
+                padding-left: 0px;
+                width: 300px;
+            }
+            @media (max-width: 1320px) {
+                padding-left: 30px;
+            }
+            @media (max-width: 930px) {
+                width: 100%;
+                padding-left: 0px;
+            }
+            h3 {
+                font-family: $vb;
+                font-size: 32px;
+                color: #000000;
+                letter-spacing: 0;
+                line-height: 15px;
+                margin-bottom: 60px;
+                padding-top: 100px;
+                @media (max-width: 1700px) {
+                    padding-top: 0px;
+                }
+            }
+            p {
+                font-size: 16px;
+                color: #000000;
+                letter-spacing: 0;
+                line-height: 11px;
+                font-family: $vr;
+            }
+        }
+        #competitionrules {
+            padding-top: 100px;
+            @media (max-width: 1700px) {
+                padding-top: 0px;
+                width: 518px;
+            }
+            @media (max-width: 1320px) {
+                width: 430px;
+            }
+            @media (max-width: 930px) {
+                width: 100%;
+            }
+            p {
+                font-size: 14px;
+                color: #000000;
+                letter-spacing: 0;
+                line-height: 23.38px;
+                margin-bottom: 15px;
+                font-family: $vr;
+            }
+        }
+    }
+}

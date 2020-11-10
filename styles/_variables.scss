@@ -1,0 +1,34 @@
+$vb : vinkel_bold;
+$vr : vinkel_regular;
+$vl : vinkel_light;
+
+$pink : #e5017c;
+
+@mixin h-style {
+    letter-spacing: 0;
+	line-height: 50.4px;
+}
+
+@mixin container-style {
+    position: relative;
+	background: white;
+	width: 1600px;
+	z-index: 2;
+	margin: 0 auto 20px auto;
+	@media (max-width: 1700px) {
+		max-width: 1200px;
+		width: 1200px;
+	}
+	@media (max-width: 1320px) {
+		max-width: 900px;
+		width: 900px;
+	}
+	@media (max-width: 930px) {
+		max-width: 600px;
+		width: 600px;
+	}
+	@media (max-width: 630px) {
+		max-width: 450px;
+		width: auto;
+	}
+}
